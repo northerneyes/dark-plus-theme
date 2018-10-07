@@ -1,0 +1,22 @@
+{
+    "name": "customdark",
+    "displayName": "CustomDark",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "northerneyes",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "customdark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/customdark-color-theme.json"
+            }
+        ]
+    }
+}
